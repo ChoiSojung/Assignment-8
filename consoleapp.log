@@ -1,55 +1,1497 @@
-2019-11-21 19:35:19,982 - __main__ - MainThread - INFO:Log level: 9, TRACE
-2019-11-21 19:35:19,983 - __main__ - MainThread - INFO:Code word search: imperdiet
-2019-11-21 19:35:19,983 - __main__ - MainThread - INFO:Log output file: consoleapp.log
-2019-11-21 19:35:19,983 - __main__ - MainThread - TRACE:main() call
-2019-11-21 19:35:19,983 - __main__ - MainThread - INFO:The program started @ 1574393719984
-2019-11-21 19:35:19,983 - __main__ - MainThread - TRACE:intro() call
-2019-11-21 19:35:19,983 - __main__ - MainThread - TRACE:intro() exit
-2019-11-21 19:35:19,983 - __main__ - MainThread - TRACE:get_switch() call
-2019-11-21 19:35:22,262 - __main__ - MainThread - DEBUG:switch input: w
-2019-11-21 19:35:22,262 - __main__ - MainThread - ERROR:Incorrect input entered for switch
-2019-11-21 19:35:22,265 - __main__ - MainThread - TRACE:count_word_from_input() call
-2019-11-21 19:35:22,265 - __main__ - MainThread - TRACE:get_sentence() call
-2019-11-21 19:35:24,572 - __main__ - MainThread - DEBUG:user entered sentence: first
-2019-11-21 19:35:24,572 - __main__ - MainThread - INFO:Write line ended @ 1574393724573
-2019-11-21 19:35:24,572 - __main__ - MainThread - INFO:Write line started @ 1574393724573
-2019-11-21 19:35:24,572 - __main__ - MainThread - INFO:Write line ended @ 1574393724573
-2019-11-21 19:35:24,572 - __main__ - MainThread - INFO:Find word from user start @ 1574393724573
-2019-11-21 19:35:24,573 - __main__ - MainThread - TRACE:split_line() call
-2019-11-21 19:35:24,573 - __main__ - MainThread - DEBUG:split line result: word_list length: 1
-2019-11-21 19:35:24,573 - __main__ - MainThread - TRACE:count_words_in_line() call
-2019-11-21 19:35:24,573 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
-2019-11-21 19:35:24,573 - __main__ - MainThread - DEBUG:0 iteration, word_count=0, line_count=0
-2019-11-21 19:35:24,573 - __main__ - MainThread - TRACE:get_sentence() call
-2019-11-21 19:35:25,521 - __main__ - MainThread - DEBUG:user entered sentence: second
-2019-11-21 19:35:25,521 - __main__ - MainThread - INFO:Write line ended @ 1574393725522
-2019-11-21 19:35:25,521 - __main__ - MainThread - INFO:Find word from user end @ 1574393725522
-2019-11-21 19:35:25,521 - __main__ - MainThread - INFO:Write line started @ 1574393725522
-2019-11-21 19:35:25,522 - __main__ - MainThread - INFO:Write line ended @ 1574393725522
-2019-11-21 19:35:25,522 - __main__ - MainThread - INFO:Find word from user start @ 1574393725522
-2019-11-21 19:35:25,522 - __main__ - MainThread - TRACE:split_line() call
-2019-11-21 19:35:25,522 - __main__ - MainThread - DEBUG:split line result: word_list length: 1
-2019-11-21 19:35:25,522 - __main__ - MainThread - TRACE:count_words_in_line() call
-2019-11-21 19:35:25,522 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
-2019-11-21 19:35:25,522 - __main__ - MainThread - DEBUG:1 iteration, word_count=0, line_count=0
-2019-11-21 19:35:25,522 - __main__ - MainThread - TRACE:get_sentence() call
-2019-11-21 19:35:26,221 - __main__ - MainThread - DEBUG:user entered sentence: third
-2019-11-21 19:35:26,221 - __main__ - MainThread - INFO:Write line ended @ 1574393726222
-2019-11-21 19:35:26,221 - __main__ - MainThread - INFO:Find word from user end @ 1574393726222
-2019-11-21 19:35:26,222 - __main__ - MainThread - INFO:Write line started @ 1574393726222
-2019-11-21 19:35:26,222 - __main__ - MainThread - INFO:Write line ended @ 1574393726222
-2019-11-21 19:35:26,222 - __main__ - MainThread - INFO:Find word from user start @ 1574393726222
-2019-11-21 19:35:26,222 - __main__ - MainThread - TRACE:split_line() call
-2019-11-21 19:35:26,222 - __main__ - MainThread - DEBUG:split line result: word_list length: 1
-2019-11-21 19:35:26,222 - __main__ - MainThread - TRACE:count_words_in_line() call
-2019-11-21 19:35:26,222 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
-2019-11-21 19:35:26,222 - __main__ - MainThread - DEBUG:2 iteration, word_count=0, line_count=0
-2019-11-21 19:35:26,222 - __main__ - MainThread - TRACE:get_sentence() call
-2019-11-21 19:35:27,651 - __main__ - MainThread - DEBUG:user entered sentence: q
-2019-11-21 19:35:27,652 - __main__ - MainThread - INFO:Write line ended @ 1574393727652
-2019-11-21 19:35:27,652 - __main__ - MainThread - INFO:Find word from user end @ 1574393727652
-2019-11-21 19:35:27,652 - __main__ - MainThread - DEBUG:Return count result: 0, line count: 0
-2019-11-21 19:35:27,652 - __main__ - MainThread - TRACE:In try-finally
-2019-11-21 19:35:29,132 - __main__ - MainThread - DEBUG:Escape input: n
-2019-11-21 19:35:29,132 - __main__ - MainThread - TRACE:main() exit
-2019-11-21 19:35:29,132 - __main__ - MainThread - INFO:Program ended @ 1574393729133
+2019-11-21 23:24:26,192 - __main__ - MainThread - INFO:Log level: 5, TRACE
+2019-11-21 23:24:26,192 - __main__ - MainThread - INFO:Code word search: imperdiet
+2019-11-21 23:24:26,193 - __main__ - MainThread - INFO:Log output file: consoleapp.log
+2019-11-21 23:24:26,193 - __main__ - MainThread - INFO:Write file: writefile.txt
+2019-11-21 23:24:26,193 - __main__ - MainThread - TRACE:main() call
+2019-11-21 23:24:26,193 - __main__ - MainThread - INFO:The program started @ 1574407466194
+2019-11-21 23:24:26,193 - __main__ - MainThread - TRACE:intro() call
+2019-11-21 23:24:26,193 - __main__ - MainThread - TRACE:intro() exit
+2019-11-21 23:24:26,194 - __main__ - MainThread - TRACE:get_switch() call
+2019-11-21 23:24:29,014 - __main__ - MainThread - DEBUG:switch input: r
+2019-11-21 23:24:29,014 - __main__ - MainThread - TRACE:count_word_in_file() call
+2019-11-21 23:24:29,014 - __main__ - MainThread - TRACE:get_path() call
+2019-11-21 23:24:30,844 - __main__ - MainThread - DEBUG:path input: lipsum.txt
+2019-11-21 23:24:30,845 - __main__ - MainThread - DEBUG:Input in expected format
+2019-11-21 23:24:30,845 - __main__ - MainThread - TRACE:get_path() exit
+2019-11-21 23:24:30,846 - __main__ - MainThread - TRACE:open file:lipsum.txt
+2019-11-21 23:24:30,846 - __main__ - MainThread - INFO:Read file started @ 1574407470847
+2019-11-21 23:24:30,847 - __main__ - MainThread - INFO:Read file line started @ 1574407470847
+2019-11-21 23:24:30,847 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,847 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,848 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,848 - __main__ - MainThread - DEBUG:31 iteration, word_count=1
+2019-11-21 23:24:30,849 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,849 - __main__ - MainThread - DEBUG:0 iteration, word_count=1, line_count=1
+2019-11-21 23:24:30,849 - __main__ - MainThread - INFO:Read file line ended @ 1574407470850
+2019-11-21 23:24:30,850 - __main__ - MainThread - INFO:Read file line started @ 1574407470850
+2019-11-21 23:24:30,850 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,850 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,850 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,850 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,850 - __main__ - MainThread - DEBUG:1 iteration, word_count=1, line_count=1
+2019-11-21 23:24:30,850 - __main__ - MainThread - INFO:Read file line ended @ 1574407470851
+2019-11-21 23:24:30,850 - __main__ - MainThread - INFO:Read file line started @ 1574407470851
+2019-11-21 23:24:30,851 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,851 - __main__ - MainThread - DEBUG:split line result: word_list length: 60
+2019-11-21 23:24:30,851 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,851 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,851 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,851 - __main__ - MainThread - DEBUG:2 iteration, word_count=2, line_count=2
+2019-11-21 23:24:30,851 - __main__ - MainThread - INFO:Read file line ended @ 1574407470852
+2019-11-21 23:24:30,851 - __main__ - MainThread - INFO:Read file line started @ 1574407470852
+2019-11-21 23:24:30,851 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,852 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,852 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,852 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,852 - __main__ - MainThread - DEBUG:3 iteration, word_count=2, line_count=2
+2019-11-21 23:24:30,852 - __main__ - MainThread - INFO:Read file line ended @ 1574407470852
+2019-11-21 23:24:30,852 - __main__ - MainThread - INFO:Read file line started @ 1574407470853
+2019-11-21 23:24:30,852 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,853 - __main__ - MainThread - DEBUG:split line result: word_list length: 88
+2019-11-21 23:24:30,853 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,853 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,853 - __main__ - MainThread - DEBUG:4 iteration, word_count=2, line_count=2
+2019-11-21 23:24:30,853 - __main__ - MainThread - INFO:Read file line ended @ 1574407470854
+2019-11-21 23:24:30,853 - __main__ - MainThread - INFO:Read file line started @ 1574407470854
+2019-11-21 23:24:30,853 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,854 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,854 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,854 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,854 - __main__ - MainThread - DEBUG:5 iteration, word_count=2, line_count=2
+2019-11-21 23:24:30,854 - __main__ - MainThread - INFO:Read file line ended @ 1574407470854
+2019-11-21 23:24:30,854 - __main__ - MainThread - INFO:Read file line started @ 1574407470855
+2019-11-21 23:24:30,854 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,854 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,854 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,855 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,855 - __main__ - MainThread - DEBUG:6 iteration, word_count=2, line_count=2
+2019-11-21 23:24:30,855 - __main__ - MainThread - INFO:Read file line ended @ 1574407470855
+2019-11-21 23:24:30,855 - __main__ - MainThread - INFO:Read file line started @ 1574407470855
+2019-11-21 23:24:30,855 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,855 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,855 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,855 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,855 - __main__ - MainThread - DEBUG:7 iteration, word_count=2, line_count=2
+2019-11-21 23:24:30,855 - __main__ - MainThread - INFO:Read file line ended @ 1574407470856
+2019-11-21 23:24:30,856 - __main__ - MainThread - INFO:Read file line started @ 1574407470856
+2019-11-21 23:24:30,856 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,856 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,856 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,856 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,856 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,856 - __main__ - MainThread - DEBUG:8 iteration, word_count=3, line_count=3
+2019-11-21 23:24:30,856 - __main__ - MainThread - INFO:Read file line ended @ 1574407470857
+2019-11-21 23:24:30,856 - __main__ - MainThread - INFO:Read file line started @ 1574407470857
+2019-11-21 23:24:30,856 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,857 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,857 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,857 - __main__ - MainThread - DEBUG:31 iteration, word_count=1
+2019-11-21 23:24:30,857 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,857 - __main__ - MainThread - DEBUG:9 iteration, word_count=4, line_count=4
+2019-11-21 23:24:30,857 - __main__ - MainThread - INFO:Read file line ended @ 1574407470857
+2019-11-21 23:24:30,857 - __main__ - MainThread - INFO:Read file line started @ 1574407470858
+2019-11-21 23:24:30,857 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,857 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,857 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,857 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,858 - __main__ - MainThread - DEBUG:10 iteration, word_count=4, line_count=4
+2019-11-21 23:24:30,858 - __main__ - MainThread - INFO:Read file line ended @ 1574407470858
+2019-11-21 23:24:30,858 - __main__ - MainThread - INFO:Read file line started @ 1574407470858
+2019-11-21 23:24:30,858 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,858 - __main__ - MainThread - DEBUG:split line result: word_list length: 60
+2019-11-21 23:24:30,858 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,858 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,858 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,858 - __main__ - MainThread - DEBUG:11 iteration, word_count=5, line_count=5
+2019-11-21 23:24:30,858 - __main__ - MainThread - INFO:Read file line ended @ 1574407470859
+2019-11-21 23:24:30,858 - __main__ - MainThread - INFO:Read file line started @ 1574407470859
+2019-11-21 23:24:30,859 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,859 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,859 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,859 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,859 - __main__ - MainThread - DEBUG:12 iteration, word_count=5, line_count=5
+2019-11-21 23:24:30,859 - __main__ - MainThread - INFO:Read file line ended @ 1574407470860
+2019-11-21 23:24:30,859 - __main__ - MainThread - INFO:Read file line started @ 1574407470860
+2019-11-21 23:24:30,859 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,859 - __main__ - MainThread - DEBUG:split line result: word_list length: 88
+2019-11-21 23:24:30,859 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,860 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,860 - __main__ - MainThread - DEBUG:13 iteration, word_count=5, line_count=5
+2019-11-21 23:24:30,860 - __main__ - MainThread - INFO:Read file line ended @ 1574407470860
+2019-11-21 23:24:30,860 - __main__ - MainThread - INFO:Read file line started @ 1574407470860
+2019-11-21 23:24:30,860 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,860 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,860 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,860 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,860 - __main__ - MainThread - DEBUG:14 iteration, word_count=5, line_count=5
+2019-11-21 23:24:30,860 - __main__ - MainThread - INFO:Read file line ended @ 1574407470861
+2019-11-21 23:24:30,860 - __main__ - MainThread - INFO:Read file line started @ 1574407470861
+2019-11-21 23:24:30,860 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,860 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,860 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,860 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,860 - __main__ - MainThread - DEBUG:15 iteration, word_count=5, line_count=5
+2019-11-21 23:24:30,860 - __main__ - MainThread - INFO:Read file line ended @ 1574407470861
+2019-11-21 23:24:30,861 - __main__ - MainThread - INFO:Read file line started @ 1574407470861
+2019-11-21 23:24:30,861 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,861 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,861 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,861 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,861 - __main__ - MainThread - DEBUG:16 iteration, word_count=5, line_count=5
+2019-11-21 23:24:30,861 - __main__ - MainThread - INFO:Read file line ended @ 1574407470862
+2019-11-21 23:24:30,861 - __main__ - MainThread - INFO:Read file line started @ 1574407470862
+2019-11-21 23:24:30,861 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,861 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,861 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,861 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,861 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,862 - __main__ - MainThread - DEBUG:17 iteration, word_count=6, line_count=6
+2019-11-21 23:24:30,862 - __main__ - MainThread - INFO:Read file line ended @ 1574407470862
+2019-11-21 23:24:30,862 - __main__ - MainThread - INFO:Read file line started @ 1574407470862
+2019-11-21 23:24:30,862 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,862 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,862 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,862 - __main__ - MainThread - DEBUG:31 iteration, word_count=1
+2019-11-21 23:24:30,862 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,862 - __main__ - MainThread - DEBUG:18 iteration, word_count=7, line_count=7
+2019-11-21 23:24:30,862 - __main__ - MainThread - INFO:Read file line ended @ 1574407470863
+2019-11-21 23:24:30,862 - __main__ - MainThread - INFO:Read file line started @ 1574407470863
+2019-11-21 23:24:30,862 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,862 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,862 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,863 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,863 - __main__ - MainThread - DEBUG:19 iteration, word_count=7, line_count=7
+2019-11-21 23:24:30,863 - __main__ - MainThread - INFO:Read file line ended @ 1574407470863
+2019-11-21 23:24:30,863 - __main__ - MainThread - INFO:Read file line started @ 1574407470863
+2019-11-21 23:24:30,863 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,863 - __main__ - MainThread - DEBUG:split line result: word_list length: 60
+2019-11-21 23:24:30,863 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,863 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,863 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,863 - __main__ - MainThread - DEBUG:20 iteration, word_count=8, line_count=8
+2019-11-21 23:24:30,864 - __main__ - MainThread - INFO:Read file line ended @ 1574407470864
+2019-11-21 23:24:30,864 - __main__ - MainThread - INFO:Read file line started @ 1574407470864
+2019-11-21 23:24:30,864 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,864 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,864 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,864 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,864 - __main__ - MainThread - DEBUG:21 iteration, word_count=8, line_count=8
+2019-11-21 23:24:30,864 - __main__ - MainThread - INFO:Read file line ended @ 1574407470865
+2019-11-21 23:24:30,865 - __main__ - MainThread - INFO:Read file line started @ 1574407470865
+2019-11-21 23:24:30,865 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,865 - __main__ - MainThread - DEBUG:split line result: word_list length: 88
+2019-11-21 23:24:30,866 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,866 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,866 - __main__ - MainThread - DEBUG:22 iteration, word_count=8, line_count=8
+2019-11-21 23:24:30,867 - __main__ - MainThread - INFO:Read file line ended @ 1574407470867
+2019-11-21 23:24:30,867 - __main__ - MainThread - INFO:Read file line started @ 1574407470867
+2019-11-21 23:24:30,867 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,867 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,867 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,867 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,867 - __main__ - MainThread - DEBUG:23 iteration, word_count=8, line_count=8
+2019-11-21 23:24:30,867 - __main__ - MainThread - INFO:Read file line ended @ 1574407470868
+2019-11-21 23:24:30,867 - __main__ - MainThread - INFO:Read file line started @ 1574407470868
+2019-11-21 23:24:30,867 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,867 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,867 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,867 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,868 - __main__ - MainThread - DEBUG:24 iteration, word_count=8, line_count=8
+2019-11-21 23:24:30,868 - __main__ - MainThread - INFO:Read file line ended @ 1574407470868
+2019-11-21 23:24:30,868 - __main__ - MainThread - INFO:Read file line started @ 1574407470868
+2019-11-21 23:24:30,868 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,868 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,868 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,868 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,868 - __main__ - MainThread - DEBUG:25 iteration, word_count=8, line_count=8
+2019-11-21 23:24:30,868 - __main__ - MainThread - INFO:Read file line ended @ 1574407470869
+2019-11-21 23:24:30,868 - __main__ - MainThread - INFO:Read file line started @ 1574407470869
+2019-11-21 23:24:30,868 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,868 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,868 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,868 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,869 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,869 - __main__ - MainThread - DEBUG:26 iteration, word_count=9, line_count=9
+2019-11-21 23:24:30,869 - __main__ - MainThread - INFO:Read file line ended @ 1574407470869
+2019-11-21 23:24:30,869 - __main__ - MainThread - INFO:Read file line started @ 1574407470869
+2019-11-21 23:24:30,869 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,869 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,869 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,869 - __main__ - MainThread - DEBUG:31 iteration, word_count=1
+2019-11-21 23:24:30,869 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,869 - __main__ - MainThread - DEBUG:27 iteration, word_count=10, line_count=10
+2019-11-21 23:24:30,869 - __main__ - MainThread - INFO:Read file line ended @ 1574407470870
+2019-11-21 23:24:30,869 - __main__ - MainThread - INFO:Read file line started @ 1574407470870
+2019-11-21 23:24:30,869 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,869 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,869 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,869 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,870 - __main__ - MainThread - DEBUG:28 iteration, word_count=10, line_count=10
+2019-11-21 23:24:30,870 - __main__ - MainThread - INFO:Read file line ended @ 1574407470870
+2019-11-21 23:24:30,870 - __main__ - MainThread - INFO:Read file line started @ 1574407470870
+2019-11-21 23:24:30,870 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,870 - __main__ - MainThread - DEBUG:split line result: word_list length: 60
+2019-11-21 23:24:30,870 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,870 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,870 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,870 - __main__ - MainThread - DEBUG:29 iteration, word_count=11, line_count=11
+2019-11-21 23:24:30,870 - __main__ - MainThread - INFO:Read file line ended @ 1574407470871
+2019-11-21 23:24:30,870 - __main__ - MainThread - INFO:Read file line started @ 1574407470871
+2019-11-21 23:24:30,870 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,870 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,870 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,870 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,870 - __main__ - MainThread - DEBUG:30 iteration, word_count=11, line_count=11
+2019-11-21 23:24:30,870 - __main__ - MainThread - INFO:Read file line ended @ 1574407470871
+2019-11-21 23:24:30,871 - __main__ - MainThread - INFO:Read file line started @ 1574407470871
+2019-11-21 23:24:30,871 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,871 - __main__ - MainThread - DEBUG:split line result: word_list length: 88
+2019-11-21 23:24:30,871 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,871 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,871 - __main__ - MainThread - DEBUG:31 iteration, word_count=11, line_count=11
+2019-11-21 23:24:30,871 - __main__ - MainThread - INFO:Read file line ended @ 1574407470871
+2019-11-21 23:24:30,871 - __main__ - MainThread - INFO:Read file line started @ 1574407470871
+2019-11-21 23:24:30,871 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,871 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,871 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,871 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,871 - __main__ - MainThread - DEBUG:32 iteration, word_count=11, line_count=11
+2019-11-21 23:24:30,871 - __main__ - MainThread - INFO:Read file line ended @ 1574407470872
+2019-11-21 23:24:30,872 - __main__ - MainThread - INFO:Read file line started @ 1574407470872
+2019-11-21 23:24:30,872 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,872 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,872 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,872 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,872 - __main__ - MainThread - DEBUG:33 iteration, word_count=11, line_count=11
+2019-11-21 23:24:30,872 - __main__ - MainThread - INFO:Read file line ended @ 1574407470872
+2019-11-21 23:24:30,872 - __main__ - MainThread - INFO:Read file line started @ 1574407470873
+2019-11-21 23:24:30,872 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,872 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,872 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,872 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,872 - __main__ - MainThread - DEBUG:34 iteration, word_count=11, line_count=11
+2019-11-21 23:24:30,872 - __main__ - MainThread - INFO:Read file line ended @ 1574407470873
+2019-11-21 23:24:30,873 - __main__ - MainThread - INFO:Read file line started @ 1574407470873
+2019-11-21 23:24:30,873 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,873 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,873 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,873 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,873 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,873 - __main__ - MainThread - DEBUG:35 iteration, word_count=12, line_count=12
+2019-11-21 23:24:30,873 - __main__ - MainThread - INFO:Read file line ended @ 1574407470873
+2019-11-21 23:24:30,873 - __main__ - MainThread - INFO:Read file line started @ 1574407470874
+2019-11-21 23:24:30,873 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,873 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,873 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,873 - __main__ - MainThread - DEBUG:31 iteration, word_count=1
+2019-11-21 23:24:30,873 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,873 - __main__ - MainThread - DEBUG:36 iteration, word_count=13, line_count=13
+2019-11-21 23:24:30,873 - __main__ - MainThread - INFO:Read file line ended @ 1574407470874
+2019-11-21 23:24:30,873 - __main__ - MainThread - INFO:Read file line started @ 1574407470874
+2019-11-21 23:24:30,874 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,874 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,874 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,874 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,874 - __main__ - MainThread - DEBUG:37 iteration, word_count=13, line_count=13
+2019-11-21 23:24:30,874 - __main__ - MainThread - INFO:Read file line ended @ 1574407470874
+2019-11-21 23:24:30,874 - __main__ - MainThread - INFO:Read file line started @ 1574407470874
+2019-11-21 23:24:30,874 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,874 - __main__ - MainThread - DEBUG:split line result: word_list length: 60
+2019-11-21 23:24:30,874 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,874 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,874 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,874 - __main__ - MainThread - DEBUG:38 iteration, word_count=14, line_count=14
+2019-11-21 23:24:30,874 - __main__ - MainThread - INFO:Read file line ended @ 1574407470875
+2019-11-21 23:24:30,874 - __main__ - MainThread - INFO:Read file line started @ 1574407470875
+2019-11-21 23:24:30,874 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,874 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,875 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,875 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,875 - __main__ - MainThread - DEBUG:39 iteration, word_count=14, line_count=14
+2019-11-21 23:24:30,875 - __main__ - MainThread - INFO:Read file line ended @ 1574407470875
+2019-11-21 23:24:30,875 - __main__ - MainThread - INFO:Read file line started @ 1574407470875
+2019-11-21 23:24:30,875 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,875 - __main__ - MainThread - DEBUG:split line result: word_list length: 88
+2019-11-21 23:24:30,875 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,875 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,875 - __main__ - MainThread - DEBUG:40 iteration, word_count=14, line_count=14
+2019-11-21 23:24:30,875 - __main__ - MainThread - INFO:Read file line ended @ 1574407470876
+2019-11-21 23:24:30,875 - __main__ - MainThread - INFO:Read file line started @ 1574407470876
+2019-11-21 23:24:30,875 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,875 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,875 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,876 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,876 - __main__ - MainThread - DEBUG:41 iteration, word_count=14, line_count=14
+2019-11-21 23:24:30,876 - __main__ - MainThread - INFO:Read file line ended @ 1574407470876
+2019-11-21 23:24:30,876 - __main__ - MainThread - INFO:Read file line started @ 1574407470876
+2019-11-21 23:24:30,876 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,876 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,876 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,876 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,876 - __main__ - MainThread - DEBUG:42 iteration, word_count=14, line_count=14
+2019-11-21 23:24:30,876 - __main__ - MainThread - INFO:Read file line ended @ 1574407470877
+2019-11-21 23:24:30,876 - __main__ - MainThread - INFO:Read file line started @ 1574407470877
+2019-11-21 23:24:30,876 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,876 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,876 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,876 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,876 - __main__ - MainThread - DEBUG:43 iteration, word_count=14, line_count=14
+2019-11-21 23:24:30,877 - __main__ - MainThread - INFO:Read file line ended @ 1574407470877
+2019-11-21 23:24:30,877 - __main__ - MainThread - INFO:Read file line started @ 1574407470877
+2019-11-21 23:24:30,877 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,877 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,877 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,877 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,877 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,877 - __main__ - MainThread - DEBUG:44 iteration, word_count=15, line_count=15
+2019-11-21 23:24:30,877 - __main__ - MainThread - INFO:Read file line ended @ 1574407470877
+2019-11-21 23:24:30,877 - __main__ - MainThread - INFO:Read file line started @ 1574407470878
+2019-11-21 23:24:30,877 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,877 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,877 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,877 - __main__ - MainThread - DEBUG:31 iteration, word_count=1
+2019-11-21 23:24:30,877 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,877 - __main__ - MainThread - DEBUG:45 iteration, word_count=16, line_count=16
+2019-11-21 23:24:30,877 - __main__ - MainThread - INFO:Read file line ended @ 1574407470878
+2019-11-21 23:24:30,878 - __main__ - MainThread - INFO:Read file line started @ 1574407470878
+2019-11-21 23:24:30,878 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,878 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,878 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,878 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,878 - __main__ - MainThread - DEBUG:46 iteration, word_count=16, line_count=16
+2019-11-21 23:24:30,878 - __main__ - MainThread - INFO:Read file line ended @ 1574407470878
+2019-11-21 23:24:30,878 - __main__ - MainThread - INFO:Read file line started @ 1574407470878
+2019-11-21 23:24:30,878 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,878 - __main__ - MainThread - DEBUG:split line result: word_list length: 60
+2019-11-21 23:24:30,878 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,878 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,878 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,878 - __main__ - MainThread - DEBUG:47 iteration, word_count=17, line_count=17
+2019-11-21 23:24:30,878 - __main__ - MainThread - INFO:Read file line ended @ 1574407470879
+2019-11-21 23:24:30,879 - __main__ - MainThread - INFO:Read file line started @ 1574407470879
+2019-11-21 23:24:30,879 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,879 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,879 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,879 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,879 - __main__ - MainThread - DEBUG:48 iteration, word_count=17, line_count=17
+2019-11-21 23:24:30,879 - __main__ - MainThread - INFO:Read file line ended @ 1574407470879
+2019-11-21 23:24:30,879 - __main__ - MainThread - INFO:Read file line started @ 1574407470879
+2019-11-21 23:24:30,879 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,879 - __main__ - MainThread - DEBUG:split line result: word_list length: 88
+2019-11-21 23:24:30,879 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,879 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,879 - __main__ - MainThread - DEBUG:49 iteration, word_count=17, line_count=17
+2019-11-21 23:24:30,879 - __main__ - MainThread - INFO:Read file line ended @ 1574407470880
+2019-11-21 23:24:30,879 - __main__ - MainThread - INFO:Read file line started @ 1574407470880
+2019-11-21 23:24:30,880 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,880 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,880 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,880 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,880 - __main__ - MainThread - DEBUG:50 iteration, word_count=17, line_count=17
+2019-11-21 23:24:30,880 - __main__ - MainThread - INFO:Read file line ended @ 1574407470880
+2019-11-21 23:24:30,880 - __main__ - MainThread - INFO:Read file line started @ 1574407470880
+2019-11-21 23:24:30,880 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,880 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,880 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,880 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,880 - __main__ - MainThread - DEBUG:51 iteration, word_count=17, line_count=17
+2019-11-21 23:24:30,880 - __main__ - MainThread - INFO:Read file line ended @ 1574407470881
+2019-11-21 23:24:30,880 - __main__ - MainThread - INFO:Read file line started @ 1574407470881
+2019-11-21 23:24:30,880 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,880 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,880 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,881 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,881 - __main__ - MainThread - DEBUG:52 iteration, word_count=17, line_count=17
+2019-11-21 23:24:30,881 - __main__ - MainThread - INFO:Read file line ended @ 1574407470881
+2019-11-21 23:24:30,881 - __main__ - MainThread - INFO:Read file line started @ 1574407470881
+2019-11-21 23:24:30,881 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,881 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,881 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,881 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,881 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,881 - __main__ - MainThread - DEBUG:53 iteration, word_count=18, line_count=18
+2019-11-21 23:24:30,881 - __main__ - MainThread - INFO:Read file line ended @ 1574407470882
+2019-11-21 23:24:30,881 - __main__ - MainThread - INFO:Read file line started @ 1574407470882
+2019-11-21 23:24:30,881 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,881 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,881 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,882 - __main__ - MainThread - DEBUG:31 iteration, word_count=1
+2019-11-21 23:24:30,882 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,882 - __main__ - MainThread - DEBUG:54 iteration, word_count=19, line_count=19
+2019-11-21 23:24:30,882 - __main__ - MainThread - INFO:Read file line ended @ 1574407470883
+2019-11-21 23:24:30,883 - __main__ - MainThread - INFO:Read file line started @ 1574407470883
+2019-11-21 23:24:30,883 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,883 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,883 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,883 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,883 - __main__ - MainThread - DEBUG:55 iteration, word_count=19, line_count=19
+2019-11-21 23:24:30,884 - __main__ - MainThread - INFO:Read file line ended @ 1574407470884
+2019-11-21 23:24:30,884 - __main__ - MainThread - INFO:Read file line started @ 1574407470884
+2019-11-21 23:24:30,884 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,884 - __main__ - MainThread - DEBUG:split line result: word_list length: 60
+2019-11-21 23:24:30,884 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,884 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,884 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,884 - __main__ - MainThread - DEBUG:56 iteration, word_count=20, line_count=20
+2019-11-21 23:24:30,884 - __main__ - MainThread - INFO:Read file line ended @ 1574407470885
+2019-11-21 23:24:30,884 - __main__ - MainThread - INFO:Read file line started @ 1574407470885
+2019-11-21 23:24:30,884 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,884 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,884 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,885 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,885 - __main__ - MainThread - DEBUG:57 iteration, word_count=20, line_count=20
+2019-11-21 23:24:30,885 - __main__ - MainThread - INFO:Read file line ended @ 1574407470885
+2019-11-21 23:24:30,885 - __main__ - MainThread - INFO:Read file line started @ 1574407470885
+2019-11-21 23:24:30,885 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,885 - __main__ - MainThread - DEBUG:split line result: word_list length: 88
+2019-11-21 23:24:30,885 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,885 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,885 - __main__ - MainThread - DEBUG:58 iteration, word_count=20, line_count=20
+2019-11-21 23:24:30,885 - __main__ - MainThread - INFO:Read file line ended @ 1574407470886
+2019-11-21 23:24:30,885 - __main__ - MainThread - INFO:Read file line started @ 1574407470886
+2019-11-21 23:24:30,885 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,885 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,885 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,885 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,886 - __main__ - MainThread - DEBUG:59 iteration, word_count=20, line_count=20
+2019-11-21 23:24:30,886 - __main__ - MainThread - INFO:Read file line ended @ 1574407470886
+2019-11-21 23:24:30,886 - __main__ - MainThread - INFO:Read file line started @ 1574407470886
+2019-11-21 23:24:30,886 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,886 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,886 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,886 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,886 - __main__ - MainThread - DEBUG:60 iteration, word_count=20, line_count=20
+2019-11-21 23:24:30,886 - __main__ - MainThread - INFO:Read file line ended @ 1574407470886
+2019-11-21 23:24:30,886 - __main__ - MainThread - INFO:Read file line started @ 1574407470887
+2019-11-21 23:24:30,886 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,886 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,886 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,886 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,886 - __main__ - MainThread - DEBUG:61 iteration, word_count=20, line_count=20
+2019-11-21 23:24:30,886 - __main__ - MainThread - INFO:Read file line ended @ 1574407470887
+2019-11-21 23:24:30,886 - __main__ - MainThread - INFO:Read file line started @ 1574407470887
+2019-11-21 23:24:30,887 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,887 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,887 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,887 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,887 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,887 - __main__ - MainThread - DEBUG:62 iteration, word_count=21, line_count=21
+2019-11-21 23:24:30,887 - __main__ - MainThread - INFO:Read file line ended @ 1574407470887
+2019-11-21 23:24:30,887 - __main__ - MainThread - INFO:Read file line started @ 1574407470887
+2019-11-21 23:24:30,887 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,887 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,887 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,887 - __main__ - MainThread - DEBUG:31 iteration, word_count=1
+2019-11-21 23:24:30,887 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,887 - __main__ - MainThread - DEBUG:63 iteration, word_count=22, line_count=22
+2019-11-21 23:24:30,887 - __main__ - MainThread - INFO:Read file line ended @ 1574407470888
+2019-11-21 23:24:30,887 - __main__ - MainThread - INFO:Read file line started @ 1574407470888
+2019-11-21 23:24:30,888 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,888 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,888 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,888 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,888 - __main__ - MainThread - DEBUG:64 iteration, word_count=22, line_count=22
+2019-11-21 23:24:30,888 - __main__ - MainThread - INFO:Read file line ended @ 1574407470888
+2019-11-21 23:24:30,888 - __main__ - MainThread - INFO:Read file line started @ 1574407470888
+2019-11-21 23:24:30,888 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,888 - __main__ - MainThread - DEBUG:split line result: word_list length: 60
+2019-11-21 23:24:30,888 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,888 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,888 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,888 - __main__ - MainThread - DEBUG:65 iteration, word_count=23, line_count=23
+2019-11-21 23:24:30,888 - __main__ - MainThread - INFO:Read file line ended @ 1574407470889
+2019-11-21 23:24:30,888 - __main__ - MainThread - INFO:Read file line started @ 1574407470889
+2019-11-21 23:24:30,888 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,888 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,889 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,889 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,889 - __main__ - MainThread - DEBUG:66 iteration, word_count=23, line_count=23
+2019-11-21 23:24:30,889 - __main__ - MainThread - INFO:Read file line ended @ 1574407470889
+2019-11-21 23:24:30,889 - __main__ - MainThread - INFO:Read file line started @ 1574407470889
+2019-11-21 23:24:30,889 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,889 - __main__ - MainThread - DEBUG:split line result: word_list length: 88
+2019-11-21 23:24:30,890 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,890 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,890 - __main__ - MainThread - DEBUG:67 iteration, word_count=23, line_count=23
+2019-11-21 23:24:30,890 - __main__ - MainThread - INFO:Read file line ended @ 1574407470890
+2019-11-21 23:24:30,890 - __main__ - MainThread - INFO:Read file line started @ 1574407470890
+2019-11-21 23:24:30,890 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,890 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,890 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,890 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,890 - __main__ - MainThread - DEBUG:68 iteration, word_count=23, line_count=23
+2019-11-21 23:24:30,890 - __main__ - MainThread - INFO:Read file line ended @ 1574407470891
+2019-11-21 23:24:30,890 - __main__ - MainThread - INFO:Read file line started @ 1574407470891
+2019-11-21 23:24:30,890 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,890 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,891 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,891 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,891 - __main__ - MainThread - DEBUG:69 iteration, word_count=23, line_count=23
+2019-11-21 23:24:30,891 - __main__ - MainThread - INFO:Read file line ended @ 1574407470891
+2019-11-21 23:24:30,891 - __main__ - MainThread - INFO:Read file line started @ 1574407470891
+2019-11-21 23:24:30,891 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,891 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,891 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,891 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,891 - __main__ - MainThread - DEBUG:70 iteration, word_count=23, line_count=23
+2019-11-21 23:24:30,891 - __main__ - MainThread - INFO:Read file line ended @ 1574407470892
+2019-11-21 23:24:30,891 - __main__ - MainThread - INFO:Read file line started @ 1574407470892
+2019-11-21 23:24:30,891 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,892 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,892 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,892 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,892 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,892 - __main__ - MainThread - DEBUG:71 iteration, word_count=24, line_count=24
+2019-11-21 23:24:30,892 - __main__ - MainThread - INFO:Read file line ended @ 1574407470892
+2019-11-21 23:24:30,892 - __main__ - MainThread - INFO:Read file line started @ 1574407470892
+2019-11-21 23:24:30,892 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,892 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,892 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,892 - __main__ - MainThread - DEBUG:31 iteration, word_count=1
+2019-11-21 23:24:30,892 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,892 - __main__ - MainThread - DEBUG:72 iteration, word_count=25, line_count=25
+2019-11-21 23:24:30,892 - __main__ - MainThread - INFO:Read file line ended @ 1574407470893
+2019-11-21 23:24:30,892 - __main__ - MainThread - INFO:Read file line started @ 1574407470893
+2019-11-21 23:24:30,892 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,893 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,893 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,893 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,893 - __main__ - MainThread - DEBUG:73 iteration, word_count=25, line_count=25
+2019-11-21 23:24:30,893 - __main__ - MainThread - INFO:Read file line ended @ 1574407470894
+2019-11-21 23:24:30,893 - __main__ - MainThread - INFO:Read file line started @ 1574407470894
+2019-11-21 23:24:30,893 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,893 - __main__ - MainThread - DEBUG:split line result: word_list length: 60
+2019-11-21 23:24:30,894 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,894 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,894 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,894 - __main__ - MainThread - DEBUG:74 iteration, word_count=26, line_count=26
+2019-11-21 23:24:30,894 - __main__ - MainThread - INFO:Read file line ended @ 1574407470894
+2019-11-21 23:24:30,894 - __main__ - MainThread - INFO:Read file line started @ 1574407470894
+2019-11-21 23:24:30,894 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,894 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,894 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,894 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,894 - __main__ - MainThread - DEBUG:75 iteration, word_count=26, line_count=26
+2019-11-21 23:24:30,894 - __main__ - MainThread - INFO:Read file line ended @ 1574407470895
+2019-11-21 23:24:30,894 - __main__ - MainThread - INFO:Read file line started @ 1574407470895
+2019-11-21 23:24:30,894 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,894 - __main__ - MainThread - DEBUG:split line result: word_list length: 88
+2019-11-21 23:24:30,894 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,895 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,895 - __main__ - MainThread - DEBUG:76 iteration, word_count=26, line_count=26
+2019-11-21 23:24:30,895 - __main__ - MainThread - INFO:Read file line ended @ 1574407470895
+2019-11-21 23:24:30,895 - __main__ - MainThread - INFO:Read file line started @ 1574407470895
+2019-11-21 23:24:30,895 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,895 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,895 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,895 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,895 - __main__ - MainThread - DEBUG:77 iteration, word_count=26, line_count=26
+2019-11-21 23:24:30,895 - __main__ - MainThread - INFO:Read file line ended @ 1574407470896
+2019-11-21 23:24:30,895 - __main__ - MainThread - INFO:Read file line started @ 1574407470896
+2019-11-21 23:24:30,895 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,895 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,895 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,895 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,895 - __main__ - MainThread - DEBUG:78 iteration, word_count=26, line_count=26
+2019-11-21 23:24:30,895 - __main__ - MainThread - INFO:Read file line ended @ 1574407470896
+2019-11-21 23:24:30,896 - __main__ - MainThread - INFO:Read file line started @ 1574407470896
+2019-11-21 23:24:30,896 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,896 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,896 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,896 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,896 - __main__ - MainThread - DEBUG:79 iteration, word_count=26, line_count=26
+2019-11-21 23:24:30,896 - __main__ - MainThread - INFO:Read file line ended @ 1574407470896
+2019-11-21 23:24:30,896 - __main__ - MainThread - INFO:Read file line started @ 1574407470896
+2019-11-21 23:24:30,896 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,896 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,896 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,896 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,896 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,896 - __main__ - MainThread - DEBUG:80 iteration, word_count=27, line_count=27
+2019-11-21 23:24:30,896 - __main__ - MainThread - INFO:Read file line ended @ 1574407470897
+2019-11-21 23:24:30,897 - __main__ - MainThread - INFO:Read file line started @ 1574407470897
+2019-11-21 23:24:30,897 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,897 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,897 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,897 - __main__ - MainThread - DEBUG:31 iteration, word_count=1
+2019-11-21 23:24:30,897 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,897 - __main__ - MainThread - DEBUG:81 iteration, word_count=28, line_count=28
+2019-11-21 23:24:30,897 - __main__ - MainThread - INFO:Read file line ended @ 1574407470897
+2019-11-21 23:24:30,897 - __main__ - MainThread - INFO:Read file line started @ 1574407470898
+2019-11-21 23:24:30,897 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,897 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,897 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,897 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,897 - __main__ - MainThread - DEBUG:82 iteration, word_count=28, line_count=28
+2019-11-21 23:24:30,897 - __main__ - MainThread - INFO:Read file line ended @ 1574407470898
+2019-11-21 23:24:30,897 - __main__ - MainThread - INFO:Read file line started @ 1574407470898
+2019-11-21 23:24:30,898 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,898 - __main__ - MainThread - DEBUG:split line result: word_list length: 60
+2019-11-21 23:24:30,898 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,898 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,898 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,898 - __main__ - MainThread - DEBUG:83 iteration, word_count=29, line_count=29
+2019-11-21 23:24:30,898 - __main__ - MainThread - INFO:Read file line ended @ 1574407470898
+2019-11-21 23:24:30,898 - __main__ - MainThread - INFO:Read file line started @ 1574407470899
+2019-11-21 23:24:30,898 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,898 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,898 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,898 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,898 - __main__ - MainThread - DEBUG:84 iteration, word_count=29, line_count=29
+2019-11-21 23:24:30,898 - __main__ - MainThread - INFO:Read file line ended @ 1574407470899
+2019-11-21 23:24:30,899 - __main__ - MainThread - INFO:Read file line started @ 1574407470899
+2019-11-21 23:24:30,899 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,899 - __main__ - MainThread - DEBUG:split line result: word_list length: 88
+2019-11-21 23:24:30,899 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,899 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,899 - __main__ - MainThread - DEBUG:85 iteration, word_count=29, line_count=29
+2019-11-21 23:24:30,899 - __main__ - MainThread - INFO:Read file line ended @ 1574407470899
+2019-11-21 23:24:30,899 - __main__ - MainThread - INFO:Read file line started @ 1574407470899
+2019-11-21 23:24:30,899 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,899 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,899 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,899 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,899 - __main__ - MainThread - DEBUG:86 iteration, word_count=29, line_count=29
+2019-11-21 23:24:30,899 - __main__ - MainThread - INFO:Read file line ended @ 1574407470900
+2019-11-21 23:24:30,899 - __main__ - MainThread - INFO:Read file line started @ 1574407470900
+2019-11-21 23:24:30,899 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,899 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,900 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,900 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,900 - __main__ - MainThread - DEBUG:87 iteration, word_count=29, line_count=29
+2019-11-21 23:24:30,900 - __main__ - MainThread - INFO:Read file line ended @ 1574407470901
+2019-11-21 23:24:30,900 - __main__ - MainThread - INFO:Read file line started @ 1574407470901
+2019-11-21 23:24:30,900 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,900 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,900 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,901 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,901 - __main__ - MainThread - DEBUG:88 iteration, word_count=29, line_count=29
+2019-11-21 23:24:30,901 - __main__ - MainThread - INFO:Read file line ended @ 1574407470901
+2019-11-21 23:24:30,901 - __main__ - MainThread - INFO:Read file line started @ 1574407470901
+2019-11-21 23:24:30,901 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,901 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,901 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,901 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,901 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,901 - __main__ - MainThread - DEBUG:89 iteration, word_count=30, line_count=30
+2019-11-21 23:24:30,901 - __main__ - MainThread - INFO:Read file line ended @ 1574407470902
+2019-11-21 23:24:30,901 - __main__ - MainThread - INFO:Read file line started @ 1574407470902
+2019-11-21 23:24:30,901 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,901 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,902 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,902 - __main__ - MainThread - DEBUG:31 iteration, word_count=1
+2019-11-21 23:24:30,902 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,902 - __main__ - MainThread - DEBUG:90 iteration, word_count=31, line_count=31
+2019-11-21 23:24:30,902 - __main__ - MainThread - INFO:Read file line ended @ 1574407470902
+2019-11-21 23:24:30,902 - __main__ - MainThread - INFO:Read file line started @ 1574407470902
+2019-11-21 23:24:30,902 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,902 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,902 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,902 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,902 - __main__ - MainThread - DEBUG:91 iteration, word_count=31, line_count=31
+2019-11-21 23:24:30,902 - __main__ - MainThread - INFO:Read file line ended @ 1574407470903
+2019-11-21 23:24:30,902 - __main__ - MainThread - INFO:Read file line started @ 1574407470903
+2019-11-21 23:24:30,902 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,902 - __main__ - MainThread - DEBUG:split line result: word_list length: 60
+2019-11-21 23:24:30,902 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,902 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,902 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,903 - __main__ - MainThread - DEBUG:92 iteration, word_count=32, line_count=32
+2019-11-21 23:24:30,903 - __main__ - MainThread - INFO:Read file line ended @ 1574407470903
+2019-11-21 23:24:30,903 - __main__ - MainThread - INFO:Read file line started @ 1574407470903
+2019-11-21 23:24:30,903 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,903 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,903 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,903 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,903 - __main__ - MainThread - DEBUG:93 iteration, word_count=32, line_count=32
+2019-11-21 23:24:30,903 - __main__ - MainThread - INFO:Read file line ended @ 1574407470903
+2019-11-21 23:24:30,903 - __main__ - MainThread - INFO:Read file line started @ 1574407470904
+2019-11-21 23:24:30,903 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,903 - __main__ - MainThread - DEBUG:split line result: word_list length: 88
+2019-11-21 23:24:30,903 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,903 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,903 - __main__ - MainThread - DEBUG:94 iteration, word_count=32, line_count=32
+2019-11-21 23:24:30,904 - __main__ - MainThread - INFO:Read file line ended @ 1574407470904
+2019-11-21 23:24:30,904 - __main__ - MainThread - INFO:Read file line started @ 1574407470904
+2019-11-21 23:24:30,904 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,904 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,904 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,904 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,904 - __main__ - MainThread - DEBUG:95 iteration, word_count=32, line_count=32
+2019-11-21 23:24:30,904 - __main__ - MainThread - INFO:Read file line ended @ 1574407470905
+2019-11-21 23:24:30,904 - __main__ - MainThread - INFO:Read file line started @ 1574407470905
+2019-11-21 23:24:30,904 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,904 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,904 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,904 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,904 - __main__ - MainThread - DEBUG:96 iteration, word_count=32, line_count=32
+2019-11-21 23:24:30,904 - __main__ - MainThread - INFO:Read file line ended @ 1574407470905
+2019-11-21 23:24:30,904 - __main__ - MainThread - INFO:Read file line started @ 1574407470905
+2019-11-21 23:24:30,905 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,905 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,905 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,905 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,905 - __main__ - MainThread - DEBUG:97 iteration, word_count=32, line_count=32
+2019-11-21 23:24:30,905 - __main__ - MainThread - INFO:Read file line ended @ 1574407470905
+2019-11-21 23:24:30,905 - __main__ - MainThread - INFO:Read file line started @ 1574407470905
+2019-11-21 23:24:30,905 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,905 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,905 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,905 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,905 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,905 - __main__ - MainThread - DEBUG:98 iteration, word_count=33, line_count=33
+2019-11-21 23:24:30,905 - __main__ - MainThread - INFO:Read file line ended @ 1574407470906
+2019-11-21 23:24:30,905 - __main__ - MainThread - INFO:Read file line started @ 1574407470906
+2019-11-21 23:24:30,905 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,905 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,906 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,906 - __main__ - MainThread - DEBUG:31 iteration, word_count=1
+2019-11-21 23:24:30,906 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,906 - __main__ - MainThread - DEBUG:99 iteration, word_count=34, line_count=34
+2019-11-21 23:24:30,906 - __main__ - MainThread - INFO:Read file line ended @ 1574407470906
+2019-11-21 23:24:30,906 - __main__ - MainThread - INFO:Read file line started @ 1574407470906
+2019-11-21 23:24:30,906 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,906 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,906 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,906 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,906 - __main__ - MainThread - DEBUG:100 iteration, word_count=34, line_count=34
+2019-11-21 23:24:30,906 - __main__ - MainThread - INFO:Read file line ended @ 1574407470907
+2019-11-21 23:24:30,906 - __main__ - MainThread - INFO:Read file line started @ 1574407470907
+2019-11-21 23:24:30,906 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,906 - __main__ - MainThread - DEBUG:split line result: word_list length: 60
+2019-11-21 23:24:30,906 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,906 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,907 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,907 - __main__ - MainThread - DEBUG:101 iteration, word_count=35, line_count=35
+2019-11-21 23:24:30,907 - __main__ - MainThread - INFO:Read file line ended @ 1574407470907
+2019-11-21 23:24:30,907 - __main__ - MainThread - INFO:Read file line started @ 1574407470907
+2019-11-21 23:24:30,907 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,907 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,907 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,907 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,907 - __main__ - MainThread - DEBUG:102 iteration, word_count=35, line_count=35
+2019-11-21 23:24:30,907 - __main__ - MainThread - INFO:Read file line ended @ 1574407470908
+2019-11-21 23:24:30,907 - __main__ - MainThread - INFO:Read file line started @ 1574407470908
+2019-11-21 23:24:30,907 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,907 - __main__ - MainThread - DEBUG:split line result: word_list length: 88
+2019-11-21 23:24:30,908 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,908 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,908 - __main__ - MainThread - DEBUG:103 iteration, word_count=35, line_count=35
+2019-11-21 23:24:30,908 - __main__ - MainThread - INFO:Read file line ended @ 1574407470908
+2019-11-21 23:24:30,908 - __main__ - MainThread - INFO:Read file line started @ 1574407470908
+2019-11-21 23:24:30,908 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,908 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,908 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,908 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,908 - __main__ - MainThread - DEBUG:104 iteration, word_count=35, line_count=35
+2019-11-21 23:24:30,908 - __main__ - MainThread - INFO:Read file line ended @ 1574407470909
+2019-11-21 23:24:30,908 - __main__ - MainThread - INFO:Read file line started @ 1574407470909
+2019-11-21 23:24:30,908 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,908 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,908 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,909 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,909 - __main__ - MainThread - DEBUG:105 iteration, word_count=35, line_count=35
+2019-11-21 23:24:30,909 - __main__ - MainThread - INFO:Read file line ended @ 1574407470909
+2019-11-21 23:24:30,909 - __main__ - MainThread - INFO:Read file line started @ 1574407470909
+2019-11-21 23:24:30,909 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,909 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,909 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,909 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,909 - __main__ - MainThread - DEBUG:106 iteration, word_count=35, line_count=35
+2019-11-21 23:24:30,909 - __main__ - MainThread - INFO:Read file line ended @ 1574407470910
+2019-11-21 23:24:30,909 - __main__ - MainThread - INFO:Read file line started @ 1574407470910
+2019-11-21 23:24:30,909 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,909 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,909 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,909 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,909 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,910 - __main__ - MainThread - DEBUG:107 iteration, word_count=36, line_count=36
+2019-11-21 23:24:30,910 - __main__ - MainThread - INFO:Read file line ended @ 1574407470910
+2019-11-21 23:24:30,910 - __main__ - MainThread - INFO:Read file line started @ 1574407470910
+2019-11-21 23:24:30,910 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,910 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,910 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,910 - __main__ - MainThread - DEBUG:31 iteration, word_count=1
+2019-11-21 23:24:30,910 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,910 - __main__ - MainThread - DEBUG:108 iteration, word_count=37, line_count=37
+2019-11-21 23:24:30,910 - __main__ - MainThread - INFO:Read file line ended @ 1574407470911
+2019-11-21 23:24:30,910 - __main__ - MainThread - INFO:Read file line started @ 1574407470911
+2019-11-21 23:24:30,910 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,910 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,910 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,911 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,911 - __main__ - MainThread - DEBUG:109 iteration, word_count=37, line_count=37
+2019-11-21 23:24:30,911 - __main__ - MainThread - INFO:Read file line ended @ 1574407470911
+2019-11-21 23:24:30,911 - __main__ - MainThread - INFO:Read file line started @ 1574407470911
+2019-11-21 23:24:30,911 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,911 - __main__ - MainThread - DEBUG:split line result: word_list length: 60
+2019-11-21 23:24:30,911 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,911 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,911 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,911 - __main__ - MainThread - DEBUG:110 iteration, word_count=38, line_count=38
+2019-11-21 23:24:30,911 - __main__ - MainThread - INFO:Read file line ended @ 1574407470912
+2019-11-21 23:24:30,911 - __main__ - MainThread - INFO:Read file line started @ 1574407470912
+2019-11-21 23:24:30,911 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,911 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,911 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,911 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,911 - __main__ - MainThread - DEBUG:111 iteration, word_count=38, line_count=38
+2019-11-21 23:24:30,912 - __main__ - MainThread - INFO:Read file line ended @ 1574407470912
+2019-11-21 23:24:30,912 - __main__ - MainThread - INFO:Read file line started @ 1574407470912
+2019-11-21 23:24:30,912 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,912 - __main__ - MainThread - DEBUG:split line result: word_list length: 88
+2019-11-21 23:24:30,912 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,912 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,912 - __main__ - MainThread - DEBUG:112 iteration, word_count=38, line_count=38
+2019-11-21 23:24:30,912 - __main__ - MainThread - INFO:Read file line ended @ 1574407470912
+2019-11-21 23:24:30,912 - __main__ - MainThread - INFO:Read file line started @ 1574407470913
+2019-11-21 23:24:30,912 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,912 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,912 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,912 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,912 - __main__ - MainThread - DEBUG:113 iteration, word_count=38, line_count=38
+2019-11-21 23:24:30,912 - __main__ - MainThread - INFO:Read file line ended @ 1574407470913
+2019-11-21 23:24:30,912 - __main__ - MainThread - INFO:Read file line started @ 1574407470913
+2019-11-21 23:24:30,913 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,913 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,913 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,913 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,913 - __main__ - MainThread - DEBUG:114 iteration, word_count=38, line_count=38
+2019-11-21 23:24:30,913 - __main__ - MainThread - INFO:Read file line ended @ 1574407470913
+2019-11-21 23:24:30,913 - __main__ - MainThread - INFO:Read file line started @ 1574407470913
+2019-11-21 23:24:30,913 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,913 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,913 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,913 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,913 - __main__ - MainThread - DEBUG:115 iteration, word_count=38, line_count=38
+2019-11-21 23:24:30,913 - __main__ - MainThread - INFO:Read file line ended @ 1574407470914
+2019-11-21 23:24:30,913 - __main__ - MainThread - INFO:Read file line started @ 1574407470914
+2019-11-21 23:24:30,913 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,913 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,914 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,914 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,914 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,914 - __main__ - MainThread - DEBUG:116 iteration, word_count=39, line_count=39
+2019-11-21 23:24:30,914 - __main__ - MainThread - INFO:Read file line ended @ 1574407470914
+2019-11-21 23:24:30,914 - __main__ - MainThread - INFO:Read file line started @ 1574407470915
+2019-11-21 23:24:30,914 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,914 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,914 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,914 - __main__ - MainThread - DEBUG:31 iteration, word_count=1
+2019-11-21 23:24:30,915 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,915 - __main__ - MainThread - DEBUG:117 iteration, word_count=40, line_count=40
+2019-11-21 23:24:30,915 - __main__ - MainThread - INFO:Read file line ended @ 1574407470915
+2019-11-21 23:24:30,915 - __main__ - MainThread - INFO:Read file line started @ 1574407470915
+2019-11-21 23:24:30,915 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,915 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,915 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,915 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,915 - __main__ - MainThread - DEBUG:118 iteration, word_count=40, line_count=40
+2019-11-21 23:24:30,915 - __main__ - MainThread - INFO:Read file line ended @ 1574407470916
+2019-11-21 23:24:30,915 - __main__ - MainThread - INFO:Read file line started @ 1574407470916
+2019-11-21 23:24:30,915 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,915 - __main__ - MainThread - DEBUG:split line result: word_list length: 60
+2019-11-21 23:24:30,915 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,915 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,915 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,915 - __main__ - MainThread - DEBUG:119 iteration, word_count=41, line_count=41
+2019-11-21 23:24:30,916 - __main__ - MainThread - INFO:Read file line ended @ 1574407470916
+2019-11-21 23:24:30,916 - __main__ - MainThread - INFO:Read file line started @ 1574407470916
+2019-11-21 23:24:30,916 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,916 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,916 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,916 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,916 - __main__ - MainThread - DEBUG:120 iteration, word_count=41, line_count=41
+2019-11-21 23:24:30,916 - __main__ - MainThread - INFO:Read file line ended @ 1574407470916
+2019-11-21 23:24:30,916 - __main__ - MainThread - INFO:Read file line started @ 1574407470917
+2019-11-21 23:24:30,916 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,916 - __main__ - MainThread - DEBUG:split line result: word_list length: 88
+2019-11-21 23:24:30,916 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,916 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,916 - __main__ - MainThread - DEBUG:121 iteration, word_count=41, line_count=41
+2019-11-21 23:24:30,916 - __main__ - MainThread - INFO:Read file line ended @ 1574407470917
+2019-11-21 23:24:30,916 - __main__ - MainThread - INFO:Read file line started @ 1574407470917
+2019-11-21 23:24:30,917 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,917 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,917 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,917 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,917 - __main__ - MainThread - DEBUG:122 iteration, word_count=41, line_count=41
+2019-11-21 23:24:30,917 - __main__ - MainThread - INFO:Read file line ended @ 1574407470917
+2019-11-21 23:24:30,917 - __main__ - MainThread - INFO:Read file line started @ 1574407470917
+2019-11-21 23:24:30,917 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,917 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,917 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,917 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,917 - __main__ - MainThread - DEBUG:123 iteration, word_count=41, line_count=41
+2019-11-21 23:24:30,917 - __main__ - MainThread - INFO:Read file line ended @ 1574407470918
+2019-11-21 23:24:30,917 - __main__ - MainThread - INFO:Read file line started @ 1574407470918
+2019-11-21 23:24:30,918 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,918 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,918 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,918 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,918 - __main__ - MainThread - DEBUG:124 iteration, word_count=41, line_count=41
+2019-11-21 23:24:30,918 - __main__ - MainThread - INFO:Read file line ended @ 1574407470918
+2019-11-21 23:24:30,918 - __main__ - MainThread - INFO:Read file line started @ 1574407470918
+2019-11-21 23:24:30,918 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,918 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,918 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,918 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,918 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,918 - __main__ - MainThread - DEBUG:125 iteration, word_count=42, line_count=42
+2019-11-21 23:24:30,918 - __main__ - MainThread - INFO:Read file line ended @ 1574407470919
+2019-11-21 23:24:30,918 - __main__ - MainThread - INFO:Read file line started @ 1574407470919
+2019-11-21 23:24:30,919 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,919 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,919 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,919 - __main__ - MainThread - DEBUG:31 iteration, word_count=1
+2019-11-21 23:24:30,919 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,919 - __main__ - MainThread - DEBUG:126 iteration, word_count=43, line_count=43
+2019-11-21 23:24:30,919 - __main__ - MainThread - INFO:Read file line ended @ 1574407470919
+2019-11-21 23:24:30,919 - __main__ - MainThread - INFO:Read file line started @ 1574407470919
+2019-11-21 23:24:30,919 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,919 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,919 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,919 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,919 - __main__ - MainThread - DEBUG:127 iteration, word_count=43, line_count=43
+2019-11-21 23:24:30,919 - __main__ - MainThread - INFO:Read file line ended @ 1574407470920
+2019-11-21 23:24:30,919 - __main__ - MainThread - INFO:Read file line started @ 1574407470920
+2019-11-21 23:24:30,919 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,919 - __main__ - MainThread - DEBUG:split line result: word_list length: 60
+2019-11-21 23:24:30,920 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,920 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,920 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,920 - __main__ - MainThread - DEBUG:128 iteration, word_count=44, line_count=44
+2019-11-21 23:24:30,920 - __main__ - MainThread - INFO:Read file line ended @ 1574407470920
+2019-11-21 23:24:30,920 - __main__ - MainThread - INFO:Read file line started @ 1574407470920
+2019-11-21 23:24:30,920 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,920 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,920 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,920 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,920 - __main__ - MainThread - DEBUG:129 iteration, word_count=44, line_count=44
+2019-11-21 23:24:30,920 - __main__ - MainThread - INFO:Read file line ended @ 1574407470921
+2019-11-21 23:24:30,920 - __main__ - MainThread - INFO:Read file line started @ 1574407470921
+2019-11-21 23:24:30,920 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,920 - __main__ - MainThread - DEBUG:split line result: word_list length: 88
+2019-11-21 23:24:30,920 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,920 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,921 - __main__ - MainThread - DEBUG:130 iteration, word_count=44, line_count=44
+2019-11-21 23:24:30,921 - __main__ - MainThread - INFO:Read file line ended @ 1574407470921
+2019-11-21 23:24:30,921 - __main__ - MainThread - INFO:Read file line started @ 1574407470921
+2019-11-21 23:24:30,921 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,921 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,921 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,921 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,921 - __main__ - MainThread - DEBUG:131 iteration, word_count=44, line_count=44
+2019-11-21 23:24:30,921 - __main__ - MainThread - INFO:Read file line ended @ 1574407470922
+2019-11-21 23:24:30,921 - __main__ - MainThread - INFO:Read file line started @ 1574407470922
+2019-11-21 23:24:30,921 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,921 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,921 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,921 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,922 - __main__ - MainThread - DEBUG:132 iteration, word_count=44, line_count=44
+2019-11-21 23:24:30,922 - __main__ - MainThread - INFO:Read file line ended @ 1574407470922
+2019-11-21 23:24:30,922 - __main__ - MainThread - INFO:Read file line started @ 1574407470922
+2019-11-21 23:24:30,922 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,922 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,922 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,922 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,922 - __main__ - MainThread - DEBUG:133 iteration, word_count=44, line_count=44
+2019-11-21 23:24:30,922 - __main__ - MainThread - INFO:Read file line ended @ 1574407470922
+2019-11-21 23:24:30,922 - __main__ - MainThread - INFO:Read file line started @ 1574407470923
+2019-11-21 23:24:30,922 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,922 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,922 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,922 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,922 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,922 - __main__ - MainThread - DEBUG:134 iteration, word_count=45, line_count=45
+2019-11-21 23:24:30,922 - __main__ - MainThread - INFO:Read file line ended @ 1574407470923
+2019-11-21 23:24:30,922 - __main__ - MainThread - INFO:Read file line started @ 1574407470923
+2019-11-21 23:24:30,923 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,923 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,923 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,923 - __main__ - MainThread - DEBUG:31 iteration, word_count=1
+2019-11-21 23:24:30,923 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,923 - __main__ - MainThread - DEBUG:135 iteration, word_count=46, line_count=46
+2019-11-21 23:24:30,923 - __main__ - MainThread - INFO:Read file line ended @ 1574407470923
+2019-11-21 23:24:30,923 - __main__ - MainThread - INFO:Read file line started @ 1574407470923
+2019-11-21 23:24:30,923 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,923 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,923 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,923 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,923 - __main__ - MainThread - DEBUG:136 iteration, word_count=46, line_count=46
+2019-11-21 23:24:30,923 - __main__ - MainThread - INFO:Read file line ended @ 1574407470924
+2019-11-21 23:24:30,923 - __main__ - MainThread - INFO:Read file line started @ 1574407470924
+2019-11-21 23:24:30,923 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,923 - __main__ - MainThread - DEBUG:split line result: word_list length: 60
+2019-11-21 23:24:30,924 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,924 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,924 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,924 - __main__ - MainThread - DEBUG:137 iteration, word_count=47, line_count=47
+2019-11-21 23:24:30,924 - __main__ - MainThread - INFO:Read file line ended @ 1574407470924
+2019-11-21 23:24:30,924 - __main__ - MainThread - INFO:Read file line started @ 1574407470924
+2019-11-21 23:24:30,924 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,924 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,924 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,924 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,924 - __main__ - MainThread - DEBUG:138 iteration, word_count=47, line_count=47
+2019-11-21 23:24:30,924 - __main__ - MainThread - INFO:Read file line ended @ 1574407470925
+2019-11-21 23:24:30,924 - __main__ - MainThread - INFO:Read file line started @ 1574407470925
+2019-11-21 23:24:30,924 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,924 - __main__ - MainThread - DEBUG:split line result: word_list length: 88
+2019-11-21 23:24:30,925 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,925 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,925 - __main__ - MainThread - DEBUG:139 iteration, word_count=47, line_count=47
+2019-11-21 23:24:30,925 - __main__ - MainThread - INFO:Read file line ended @ 1574407470925
+2019-11-21 23:24:30,925 - __main__ - MainThread - INFO:Read file line started @ 1574407470925
+2019-11-21 23:24:30,925 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,925 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,925 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,925 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,925 - __main__ - MainThread - DEBUG:140 iteration, word_count=47, line_count=47
+2019-11-21 23:24:30,925 - __main__ - MainThread - INFO:Read file line ended @ 1574407470926
+2019-11-21 23:24:30,925 - __main__ - MainThread - INFO:Read file line started @ 1574407470926
+2019-11-21 23:24:30,925 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,925 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,926 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,926 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,926 - __main__ - MainThread - DEBUG:141 iteration, word_count=47, line_count=47
+2019-11-21 23:24:30,926 - __main__ - MainThread - INFO:Read file line ended @ 1574407470926
+2019-11-21 23:24:30,926 - __main__ - MainThread - INFO:Read file line started @ 1574407470926
+2019-11-21 23:24:30,926 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,926 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,926 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,926 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,926 - __main__ - MainThread - DEBUG:142 iteration, word_count=47, line_count=47
+2019-11-21 23:24:30,926 - __main__ - MainThread - INFO:Read file line ended @ 1574407470927
+2019-11-21 23:24:30,926 - __main__ - MainThread - INFO:Read file line started @ 1574407470927
+2019-11-21 23:24:30,926 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,926 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,926 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,926 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,926 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,927 - __main__ - MainThread - DEBUG:143 iteration, word_count=48, line_count=48
+2019-11-21 23:24:30,927 - __main__ - MainThread - INFO:Read file line ended @ 1574407470927
+2019-11-21 23:24:30,927 - __main__ - MainThread - INFO:Read file line started @ 1574407470927
+2019-11-21 23:24:30,927 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,927 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,927 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,927 - __main__ - MainThread - DEBUG:31 iteration, word_count=1
+2019-11-21 23:24:30,927 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,927 - __main__ - MainThread - DEBUG:144 iteration, word_count=49, line_count=49
+2019-11-21 23:24:30,927 - __main__ - MainThread - INFO:Read file line ended @ 1574407470928
+2019-11-21 23:24:30,927 - __main__ - MainThread - INFO:Read file line started @ 1574407470928
+2019-11-21 23:24:30,927 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,927 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,927 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,927 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,927 - __main__ - MainThread - DEBUG:145 iteration, word_count=49, line_count=49
+2019-11-21 23:24:30,927 - __main__ - MainThread - INFO:Read file line ended @ 1574407470928
+2019-11-21 23:24:30,928 - __main__ - MainThread - INFO:Read file line started @ 1574407470928
+2019-11-21 23:24:30,928 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,928 - __main__ - MainThread - DEBUG:split line result: word_list length: 60
+2019-11-21 23:24:30,928 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,928 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,928 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,928 - __main__ - MainThread - DEBUG:146 iteration, word_count=50, line_count=50
+2019-11-21 23:24:30,928 - __main__ - MainThread - INFO:Read file line ended @ 1574407470929
+2019-11-21 23:24:30,929 - __main__ - MainThread - INFO:Read file line started @ 1574407470929
+2019-11-21 23:24:30,929 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,929 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,929 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,929 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,929 - __main__ - MainThread - DEBUG:147 iteration, word_count=50, line_count=50
+2019-11-21 23:24:30,929 - __main__ - MainThread - INFO:Read file line ended @ 1574407470929
+2019-11-21 23:24:30,929 - __main__ - MainThread - INFO:Read file line started @ 1574407470930
+2019-11-21 23:24:30,929 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,929 - __main__ - MainThread - DEBUG:split line result: word_list length: 88
+2019-11-21 23:24:30,929 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,929 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,929 - __main__ - MainThread - DEBUG:148 iteration, word_count=50, line_count=50
+2019-11-21 23:24:30,929 - __main__ - MainThread - INFO:Read file line ended @ 1574407470930
+2019-11-21 23:24:30,929 - __main__ - MainThread - INFO:Read file line started @ 1574407470930
+2019-11-21 23:24:30,930 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,930 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,930 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,930 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,930 - __main__ - MainThread - DEBUG:149 iteration, word_count=50, line_count=50
+2019-11-21 23:24:30,930 - __main__ - MainThread - INFO:Read file line ended @ 1574407470930
+2019-11-21 23:24:30,930 - __main__ - MainThread - INFO:Read file line started @ 1574407470930
+2019-11-21 23:24:30,930 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,930 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,930 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,930 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,930 - __main__ - MainThread - DEBUG:150 iteration, word_count=50, line_count=50
+2019-11-21 23:24:30,930 - __main__ - MainThread - INFO:Read file line ended @ 1574407470931
+2019-11-21 23:24:30,930 - __main__ - MainThread - INFO:Read file line started @ 1574407470931
+2019-11-21 23:24:30,930 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,930 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,930 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,931 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,931 - __main__ - MainThread - DEBUG:151 iteration, word_count=50, line_count=50
+2019-11-21 23:24:30,931 - __main__ - MainThread - INFO:Read file line ended @ 1574407470931
+2019-11-21 23:24:30,931 - __main__ - MainThread - INFO:Read file line started @ 1574407470931
+2019-11-21 23:24:30,931 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,931 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,931 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,931 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,931 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,931 - __main__ - MainThread - DEBUG:152 iteration, word_count=51, line_count=51
+2019-11-21 23:24:30,931 - __main__ - MainThread - INFO:Read file line ended @ 1574407470932
+2019-11-21 23:24:30,931 - __main__ - MainThread - INFO:Read file line started @ 1574407470932
+2019-11-21 23:24:30,931 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,931 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,931 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,932 - __main__ - MainThread - DEBUG:31 iteration, word_count=1
+2019-11-21 23:24:30,932 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,932 - __main__ - MainThread - DEBUG:153 iteration, word_count=52, line_count=52
+2019-11-21 23:24:30,932 - __main__ - MainThread - INFO:Read file line ended @ 1574407470932
+2019-11-21 23:24:30,932 - __main__ - MainThread - INFO:Read file line started @ 1574407470932
+2019-11-21 23:24:30,932 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,932 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,932 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,932 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,932 - __main__ - MainThread - DEBUG:154 iteration, word_count=52, line_count=52
+2019-11-21 23:24:30,932 - __main__ - MainThread - INFO:Read file line ended @ 1574407470933
+2019-11-21 23:24:30,932 - __main__ - MainThread - INFO:Read file line started @ 1574407470933
+2019-11-21 23:24:30,932 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,932 - __main__ - MainThread - DEBUG:split line result: word_list length: 60
+2019-11-21 23:24:30,932 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,932 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,932 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,933 - __main__ - MainThread - DEBUG:155 iteration, word_count=53, line_count=53
+2019-11-21 23:24:30,933 - __main__ - MainThread - INFO:Read file line ended @ 1574407470933
+2019-11-21 23:24:30,933 - __main__ - MainThread - INFO:Read file line started @ 1574407470933
+2019-11-21 23:24:30,933 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,933 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,933 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,933 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,933 - __main__ - MainThread - DEBUG:156 iteration, word_count=53, line_count=53
+2019-11-21 23:24:30,933 - __main__ - MainThread - INFO:Read file line ended @ 1574407470933
+2019-11-21 23:24:30,933 - __main__ - MainThread - INFO:Read file line started @ 1574407470934
+2019-11-21 23:24:30,933 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,933 - __main__ - MainThread - DEBUG:split line result: word_list length: 88
+2019-11-21 23:24:30,933 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,933 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,933 - __main__ - MainThread - DEBUG:157 iteration, word_count=53, line_count=53
+2019-11-21 23:24:30,933 - __main__ - MainThread - INFO:Read file line ended @ 1574407470934
+2019-11-21 23:24:30,933 - __main__ - MainThread - INFO:Read file line started @ 1574407470934
+2019-11-21 23:24:30,934 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,934 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,934 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,934 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,934 - __main__ - MainThread - DEBUG:158 iteration, word_count=53, line_count=53
+2019-11-21 23:24:30,934 - __main__ - MainThread - INFO:Read file line ended @ 1574407470934
+2019-11-21 23:24:30,934 - __main__ - MainThread - INFO:Read file line started @ 1574407470934
+2019-11-21 23:24:30,934 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,934 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,934 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,934 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,934 - __main__ - MainThread - DEBUG:159 iteration, word_count=53, line_count=53
+2019-11-21 23:24:30,934 - __main__ - MainThread - INFO:Read file line ended @ 1574407470935
+2019-11-21 23:24:30,934 - __main__ - MainThread - INFO:Read file line started @ 1574407470935
+2019-11-21 23:24:30,934 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,934 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,934 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,935 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,935 - __main__ - MainThread - DEBUG:160 iteration, word_count=53, line_count=53
+2019-11-21 23:24:30,935 - __main__ - MainThread - INFO:Read file line ended @ 1574407470935
+2019-11-21 23:24:30,935 - __main__ - MainThread - INFO:Read file line started @ 1574407470935
+2019-11-21 23:24:30,935 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,935 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,935 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,935 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,935 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,935 - __main__ - MainThread - DEBUG:161 iteration, word_count=54, line_count=54
+2019-11-21 23:24:30,935 - __main__ - MainThread - INFO:Read file line ended @ 1574407470936
+2019-11-21 23:24:30,935 - __main__ - MainThread - INFO:Read file line started @ 1574407470936
+2019-11-21 23:24:30,935 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,935 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,935 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,936 - __main__ - MainThread - DEBUG:31 iteration, word_count=1
+2019-11-21 23:24:30,936 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,936 - __main__ - MainThread - DEBUG:162 iteration, word_count=55, line_count=55
+2019-11-21 23:24:30,936 - __main__ - MainThread - INFO:Read file line ended @ 1574407470936
+2019-11-21 23:24:30,936 - __main__ - MainThread - INFO:Read file line started @ 1574407470936
+2019-11-21 23:24:30,936 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,936 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,936 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,936 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,936 - __main__ - MainThread - DEBUG:163 iteration, word_count=55, line_count=55
+2019-11-21 23:24:30,936 - __main__ - MainThread - INFO:Read file line ended @ 1574407470937
+2019-11-21 23:24:30,936 - __main__ - MainThread - INFO:Read file line started @ 1574407470937
+2019-11-21 23:24:30,936 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,936 - __main__ - MainThread - DEBUG:split line result: word_list length: 60
+2019-11-21 23:24:30,936 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,936 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,936 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,936 - __main__ - MainThread - DEBUG:164 iteration, word_count=56, line_count=56
+2019-11-21 23:24:30,937 - __main__ - MainThread - INFO:Read file line ended @ 1574407470937
+2019-11-21 23:24:30,937 - __main__ - MainThread - INFO:Read file line started @ 1574407470937
+2019-11-21 23:24:30,937 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,937 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,937 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,937 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,937 - __main__ - MainThread - DEBUG:165 iteration, word_count=56, line_count=56
+2019-11-21 23:24:30,937 - __main__ - MainThread - INFO:Read file line ended @ 1574407470937
+2019-11-21 23:24:30,937 - __main__ - MainThread - INFO:Read file line started @ 1574407470937
+2019-11-21 23:24:30,937 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,937 - __main__ - MainThread - DEBUG:split line result: word_list length: 88
+2019-11-21 23:24:30,937 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,937 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,937 - __main__ - MainThread - DEBUG:166 iteration, word_count=56, line_count=56
+2019-11-21 23:24:30,937 - __main__ - MainThread - INFO:Read file line ended @ 1574407470938
+2019-11-21 23:24:30,937 - __main__ - MainThread - INFO:Read file line started @ 1574407470938
+2019-11-21 23:24:30,937 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,938 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,938 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,938 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,938 - __main__ - MainThread - DEBUG:167 iteration, word_count=56, line_count=56
+2019-11-21 23:24:30,938 - __main__ - MainThread - INFO:Read file line ended @ 1574407470938
+2019-11-21 23:24:30,938 - __main__ - MainThread - INFO:Read file line started @ 1574407470938
+2019-11-21 23:24:30,938 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,938 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,938 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,938 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,938 - __main__ - MainThread - DEBUG:168 iteration, word_count=56, line_count=56
+2019-11-21 23:24:30,938 - __main__ - MainThread - INFO:Read file line ended @ 1574407470939
+2019-11-21 23:24:30,939 - __main__ - MainThread - INFO:Read file line started @ 1574407470939
+2019-11-21 23:24:30,939 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,939 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,939 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,939 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,939 - __main__ - MainThread - DEBUG:169 iteration, word_count=56, line_count=56
+2019-11-21 23:24:30,939 - __main__ - MainThread - INFO:Read file line ended @ 1574407470939
+2019-11-21 23:24:30,939 - __main__ - MainThread - INFO:Read file line started @ 1574407470939
+2019-11-21 23:24:30,939 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,939 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,939 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,939 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,939 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,939 - __main__ - MainThread - DEBUG:170 iteration, word_count=57, line_count=57
+2019-11-21 23:24:30,939 - __main__ - MainThread - INFO:Read file line ended @ 1574407470940
+2019-11-21 23:24:30,939 - __main__ - MainThread - INFO:Read file line started @ 1574407470940
+2019-11-21 23:24:30,939 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,940 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,940 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,940 - __main__ - MainThread - DEBUG:31 iteration, word_count=1
+2019-11-21 23:24:30,940 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,940 - __main__ - MainThread - DEBUG:171 iteration, word_count=58, line_count=58
+2019-11-21 23:24:30,940 - __main__ - MainThread - INFO:Read file line ended @ 1574407470940
+2019-11-21 23:24:30,940 - __main__ - MainThread - INFO:Read file line started @ 1574407470940
+2019-11-21 23:24:30,940 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,940 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,940 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,940 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,940 - __main__ - MainThread - DEBUG:172 iteration, word_count=58, line_count=58
+2019-11-21 23:24:30,940 - __main__ - MainThread - INFO:Read file line ended @ 1574407470941
+2019-11-21 23:24:30,940 - __main__ - MainThread - INFO:Read file line started @ 1574407470941
+2019-11-21 23:24:30,940 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,940 - __main__ - MainThread - DEBUG:split line result: word_list length: 60
+2019-11-21 23:24:30,940 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,941 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,941 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,941 - __main__ - MainThread - DEBUG:173 iteration, word_count=59, line_count=59
+2019-11-21 23:24:30,941 - __main__ - MainThread - INFO:Read file line ended @ 1574407470941
+2019-11-21 23:24:30,941 - __main__ - MainThread - INFO:Read file line started @ 1574407470941
+2019-11-21 23:24:30,941 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,941 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,941 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,941 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,941 - __main__ - MainThread - DEBUG:174 iteration, word_count=59, line_count=59
+2019-11-21 23:24:30,941 - __main__ - MainThread - INFO:Read file line ended @ 1574407470942
+2019-11-21 23:24:30,941 - __main__ - MainThread - INFO:Read file line started @ 1574407470942
+2019-11-21 23:24:30,941 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,941 - __main__ - MainThread - DEBUG:split line result: word_list length: 88
+2019-11-21 23:24:30,941 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,941 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,942 - __main__ - MainThread - DEBUG:175 iteration, word_count=59, line_count=59
+2019-11-21 23:24:30,942 - __main__ - MainThread - INFO:Read file line ended @ 1574407470942
+2019-11-21 23:24:30,942 - __main__ - MainThread - INFO:Read file line started @ 1574407470942
+2019-11-21 23:24:30,942 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,942 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,942 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,942 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,942 - __main__ - MainThread - DEBUG:176 iteration, word_count=59, line_count=59
+2019-11-21 23:24:30,942 - __main__ - MainThread - INFO:Read file line ended @ 1574407470942
+2019-11-21 23:24:30,942 - __main__ - MainThread - INFO:Read file line started @ 1574407470943
+2019-11-21 23:24:30,942 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,942 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,943 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,943 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,943 - __main__ - MainThread - DEBUG:177 iteration, word_count=59, line_count=59
+2019-11-21 23:24:30,943 - __main__ - MainThread - INFO:Read file line ended @ 1574407470943
+2019-11-21 23:24:30,943 - __main__ - MainThread - INFO:Read file line started @ 1574407470944
+2019-11-21 23:24:30,943 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,943 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,943 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,943 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,943 - __main__ - MainThread - DEBUG:178 iteration, word_count=59, line_count=59
+2019-11-21 23:24:30,944 - __main__ - MainThread - INFO:Read file line ended @ 1574407470944
+2019-11-21 23:24:30,944 - __main__ - MainThread - INFO:Read file line started @ 1574407470944
+2019-11-21 23:24:30,944 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,944 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,944 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,944 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,944 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,944 - __main__ - MainThread - DEBUG:179 iteration, word_count=60, line_count=60
+2019-11-21 23:24:30,944 - __main__ - MainThread - INFO:Read file line ended @ 1574407470945
+2019-11-21 23:24:30,944 - __main__ - MainThread - INFO:Read file line started @ 1574407470945
+2019-11-21 23:24:30,944 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,944 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,944 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,944 - __main__ - MainThread - DEBUG:31 iteration, word_count=1
+2019-11-21 23:24:30,944 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,944 - __main__ - MainThread - DEBUG:180 iteration, word_count=61, line_count=61
+2019-11-21 23:24:30,944 - __main__ - MainThread - INFO:Read file line ended @ 1574407470945
+2019-11-21 23:24:30,945 - __main__ - MainThread - INFO:Read file line started @ 1574407470945
+2019-11-21 23:24:30,945 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,945 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,945 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,945 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,945 - __main__ - MainThread - DEBUG:181 iteration, word_count=61, line_count=61
+2019-11-21 23:24:30,945 - __main__ - MainThread - INFO:Read file line ended @ 1574407470945
+2019-11-21 23:24:30,945 - __main__ - MainThread - INFO:Read file line started @ 1574407470945
+2019-11-21 23:24:30,945 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,945 - __main__ - MainThread - DEBUG:split line result: word_list length: 60
+2019-11-21 23:24:30,945 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,945 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,945 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,945 - __main__ - MainThread - DEBUG:182 iteration, word_count=62, line_count=62
+2019-11-21 23:24:30,945 - __main__ - MainThread - INFO:Read file line ended @ 1574407470946
+2019-11-21 23:24:30,945 - __main__ - MainThread - INFO:Read file line started @ 1574407470946
+2019-11-21 23:24:30,945 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,946 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,946 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,946 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,946 - __main__ - MainThread - DEBUG:183 iteration, word_count=62, line_count=62
+2019-11-21 23:24:30,946 - __main__ - MainThread - INFO:Read file line ended @ 1574407470946
+2019-11-21 23:24:30,946 - __main__ - MainThread - INFO:Read file line started @ 1574407470947
+2019-11-21 23:24:30,946 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,946 - __main__ - MainThread - DEBUG:split line result: word_list length: 88
+2019-11-21 23:24:30,946 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,946 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,946 - __main__ - MainThread - DEBUG:184 iteration, word_count=62, line_count=62
+2019-11-21 23:24:30,946 - __main__ - MainThread - INFO:Read file line ended @ 1574407470947
+2019-11-21 23:24:30,946 - __main__ - MainThread - INFO:Read file line started @ 1574407470947
+2019-11-21 23:24:30,947 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,947 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,947 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,947 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,947 - __main__ - MainThread - DEBUG:185 iteration, word_count=62, line_count=62
+2019-11-21 23:24:30,947 - __main__ - MainThread - INFO:Read file line ended @ 1574407470947
+2019-11-21 23:24:30,947 - __main__ - MainThread - INFO:Read file line started @ 1574407470947
+2019-11-21 23:24:30,947 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,947 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,947 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,947 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,947 - __main__ - MainThread - DEBUG:186 iteration, word_count=62, line_count=62
+2019-11-21 23:24:30,947 - __main__ - MainThread - INFO:Read file line ended @ 1574407470948
+2019-11-21 23:24:30,947 - __main__ - MainThread - INFO:Read file line started @ 1574407470948
+2019-11-21 23:24:30,947 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,947 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,947 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,948 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,948 - __main__ - MainThread - DEBUG:187 iteration, word_count=62, line_count=62
+2019-11-21 23:24:30,948 - __main__ - MainThread - INFO:Read file line ended @ 1574407470948
+2019-11-21 23:24:30,948 - __main__ - MainThread - INFO:Read file line started @ 1574407470948
+2019-11-21 23:24:30,948 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,948 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,948 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,948 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,948 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,948 - __main__ - MainThread - DEBUG:188 iteration, word_count=63, line_count=63
+2019-11-21 23:24:30,948 - __main__ - MainThread - INFO:Read file line ended @ 1574407470949
+2019-11-21 23:24:30,948 - __main__ - MainThread - INFO:Read file line started @ 1574407470949
+2019-11-21 23:24:30,948 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,948 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,948 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,948 - __main__ - MainThread - DEBUG:31 iteration, word_count=1
+2019-11-21 23:24:30,948 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,948 - __main__ - MainThread - DEBUG:189 iteration, word_count=64, line_count=64
+2019-11-21 23:24:30,949 - __main__ - MainThread - INFO:Read file line ended @ 1574407470949
+2019-11-21 23:24:30,949 - __main__ - MainThread - INFO:Read file line started @ 1574407470949
+2019-11-21 23:24:30,949 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,949 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,949 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,949 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,949 - __main__ - MainThread - DEBUG:190 iteration, word_count=64, line_count=64
+2019-11-21 23:24:30,949 - __main__ - MainThread - INFO:Read file line ended @ 1574407470949
+2019-11-21 23:24:30,949 - __main__ - MainThread - INFO:Read file line started @ 1574407470950
+2019-11-21 23:24:30,949 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,949 - __main__ - MainThread - DEBUG:split line result: word_list length: 60
+2019-11-21 23:24:30,949 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,949 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,950 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,950 - __main__ - MainThread - DEBUG:191 iteration, word_count=65, line_count=65
+2019-11-21 23:24:30,950 - __main__ - MainThread - INFO:Read file line ended @ 1574407470950
+2019-11-21 23:24:30,950 - __main__ - MainThread - INFO:Read file line started @ 1574407470950
+2019-11-21 23:24:30,950 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,950 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,950 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,950 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,950 - __main__ - MainThread - DEBUG:192 iteration, word_count=65, line_count=65
+2019-11-21 23:24:30,950 - __main__ - MainThread - INFO:Read file line ended @ 1574407470951
+2019-11-21 23:24:30,950 - __main__ - MainThread - INFO:Read file line started @ 1574407470951
+2019-11-21 23:24:30,950 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,950 - __main__ - MainThread - DEBUG:split line result: word_list length: 88
+2019-11-21 23:24:30,950 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,950 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,950 - __main__ - MainThread - DEBUG:193 iteration, word_count=65, line_count=65
+2019-11-21 23:24:30,950 - __main__ - MainThread - INFO:Read file line ended @ 1574407470951
+2019-11-21 23:24:30,951 - __main__ - MainThread - INFO:Read file line started @ 1574407470951
+2019-11-21 23:24:30,951 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,951 - __main__ - MainThread - DEBUG:split line result: word_list length: 52
+2019-11-21 23:24:30,951 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,951 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,951 - __main__ - MainThread - DEBUG:194 iteration, word_count=65, line_count=65
+2019-11-21 23:24:30,951 - __main__ - MainThread - INFO:Read file line ended @ 1574407470951
+2019-11-21 23:24:30,951 - __main__ - MainThread - INFO:Read file line started @ 1574407470951
+2019-11-21 23:24:30,951 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,951 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,951 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,951 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,951 - __main__ - MainThread - DEBUG:195 iteration, word_count=65, line_count=65
+2019-11-21 23:24:30,951 - __main__ - MainThread - INFO:Read file line ended @ 1574407470952
+2019-11-21 23:24:30,951 - __main__ - MainThread - INFO:Read file line started @ 1574407470952
+2019-11-21 23:24:30,951 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,951 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,952 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,952 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,952 - __main__ - MainThread - DEBUG:196 iteration, word_count=65, line_count=65
+2019-11-21 23:24:30,952 - __main__ - MainThread - INFO:Read file line ended @ 1574407470952
+2019-11-21 23:24:30,952 - __main__ - MainThread - INFO:Read file line started @ 1574407470952
+2019-11-21 23:24:30,952 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,952 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,952 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,952 - __main__ - MainThread - DEBUG:8 iteration, word_count=1
+2019-11-21 23:24:30,952 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,952 - __main__ - MainThread - DEBUG:197 iteration, word_count=66, line_count=66
+2019-11-21 23:24:30,952 - __main__ - MainThread - INFO:Read file line ended @ 1574407470953
+2019-11-21 23:24:30,952 - __main__ - MainThread - INFO:Read file line started @ 1574407470953
+2019-11-21 23:24:30,952 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,952 - __main__ - MainThread - DEBUG:split line result: word_list length: 58
+2019-11-21 23:24:30,952 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,952 - __main__ - MainThread - DEBUG:31 iteration, word_count=1
+2019-11-21 23:24:30,953 - __main__ - MainThread - DEBUG:Return count words result: 1, line count: 1
+2019-11-21 23:24:30,953 - __main__ - MainThread - DEBUG:198 iteration, word_count=67, line_count=67
+2019-11-21 23:24:30,953 - __main__ - MainThread - INFO:Read file line ended @ 1574407470953
+2019-11-21 23:24:30,953 - __main__ - MainThread - INFO:Read file line started @ 1574407470953
+2019-11-21 23:24:30,953 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,953 - __main__ - MainThread - DEBUG:split line result: word_list length: 40
+2019-11-21 23:24:30,953 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,953 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,953 - __main__ - MainThread - DEBUG:199 iteration, word_count=67, line_count=67
+2019-11-21 23:24:30,953 - __main__ - MainThread - INFO:Read file line ended @ 1574407470954
+2019-11-21 23:24:30,953 - __main__ - MainThread - INFO:Read file line started @ 1574407470954
+2019-11-21 23:24:30,953 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 23:24:30,953 - __main__ - MainThread - DEBUG:split line result: word_list length: 0
+2019-11-21 23:24:30,953 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 23:24:30,954 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 23:24:30,954 - __main__ - MainThread - DEBUG:200 iteration, word_count=67, line_count=67
+2019-11-21 23:24:30,954 - __main__ - MainThread - INFO:Read file line ended @ 1574407470954
+2019-11-21 23:24:30,954 - __main__ - MainThread - INFO:Read file ended @ 1574407470954
+2019-11-21 23:24:30,954 - __main__ - MainThread - DEBUG:Return count result: 67, line count: 67, total lines: 201
+2019-11-21 23:24:30,954 - __main__ - MainThread - INFO:File closed
+2019-11-21 23:24:30,954 - __main__ - MainThread - TRACE:count_word_in_file() exit
+2019-11-21 23:24:30,954 - __main__ - MainThread - TRACE:main() exit
+2019-11-21 23:24:30,954 - __main__ - MainThread - INFO:Program ended @ 1574407470955
