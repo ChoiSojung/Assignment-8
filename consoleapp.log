@@ -1,3 +1,55 @@
-2019-11-20 13:04:41,030:TRACE:Intro started
-NoneType: None
-2019-11-20 13:04:41,031:TRACE:Intro printed
+2019-11-21 19:35:19,982 - __main__ - MainThread - INFO:Log level: 9, TRACE
+2019-11-21 19:35:19,983 - __main__ - MainThread - INFO:Code word search: imperdiet
+2019-11-21 19:35:19,983 - __main__ - MainThread - INFO:Log output file: consoleapp.log
+2019-11-21 19:35:19,983 - __main__ - MainThread - TRACE:main() call
+2019-11-21 19:35:19,983 - __main__ - MainThread - INFO:The program started @ 1574393719984
+2019-11-21 19:35:19,983 - __main__ - MainThread - TRACE:intro() call
+2019-11-21 19:35:19,983 - __main__ - MainThread - TRACE:intro() exit
+2019-11-21 19:35:19,983 - __main__ - MainThread - TRACE:get_switch() call
+2019-11-21 19:35:22,262 - __main__ - MainThread - DEBUG:switch input: w
+2019-11-21 19:35:22,262 - __main__ - MainThread - ERROR:Incorrect input entered for switch
+2019-11-21 19:35:22,265 - __main__ - MainThread - TRACE:count_word_from_input() call
+2019-11-21 19:35:22,265 - __main__ - MainThread - TRACE:get_sentence() call
+2019-11-21 19:35:24,572 - __main__ - MainThread - DEBUG:user entered sentence: first
+2019-11-21 19:35:24,572 - __main__ - MainThread - INFO:Write line ended @ 1574393724573
+2019-11-21 19:35:24,572 - __main__ - MainThread - INFO:Write line started @ 1574393724573
+2019-11-21 19:35:24,572 - __main__ - MainThread - INFO:Write line ended @ 1574393724573
+2019-11-21 19:35:24,572 - __main__ - MainThread - INFO:Find word from user start @ 1574393724573
+2019-11-21 19:35:24,573 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 19:35:24,573 - __main__ - MainThread - DEBUG:split line result: word_list length: 1
+2019-11-21 19:35:24,573 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 19:35:24,573 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 19:35:24,573 - __main__ - MainThread - DEBUG:0 iteration, word_count=0, line_count=0
+2019-11-21 19:35:24,573 - __main__ - MainThread - TRACE:get_sentence() call
+2019-11-21 19:35:25,521 - __main__ - MainThread - DEBUG:user entered sentence: second
+2019-11-21 19:35:25,521 - __main__ - MainThread - INFO:Write line ended @ 1574393725522
+2019-11-21 19:35:25,521 - __main__ - MainThread - INFO:Find word from user end @ 1574393725522
+2019-11-21 19:35:25,521 - __main__ - MainThread - INFO:Write line started @ 1574393725522
+2019-11-21 19:35:25,522 - __main__ - MainThread - INFO:Write line ended @ 1574393725522
+2019-11-21 19:35:25,522 - __main__ - MainThread - INFO:Find word from user start @ 1574393725522
+2019-11-21 19:35:25,522 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 19:35:25,522 - __main__ - MainThread - DEBUG:split line result: word_list length: 1
+2019-11-21 19:35:25,522 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 19:35:25,522 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 19:35:25,522 - __main__ - MainThread - DEBUG:1 iteration, word_count=0, line_count=0
+2019-11-21 19:35:25,522 - __main__ - MainThread - TRACE:get_sentence() call
+2019-11-21 19:35:26,221 - __main__ - MainThread - DEBUG:user entered sentence: third
+2019-11-21 19:35:26,221 - __main__ - MainThread - INFO:Write line ended @ 1574393726222
+2019-11-21 19:35:26,221 - __main__ - MainThread - INFO:Find word from user end @ 1574393726222
+2019-11-21 19:35:26,222 - __main__ - MainThread - INFO:Write line started @ 1574393726222
+2019-11-21 19:35:26,222 - __main__ - MainThread - INFO:Write line ended @ 1574393726222
+2019-11-21 19:35:26,222 - __main__ - MainThread - INFO:Find word from user start @ 1574393726222
+2019-11-21 19:35:26,222 - __main__ - MainThread - TRACE:split_line() call
+2019-11-21 19:35:26,222 - __main__ - MainThread - DEBUG:split line result: word_list length: 1
+2019-11-21 19:35:26,222 - __main__ - MainThread - TRACE:count_words_in_line() call
+2019-11-21 19:35:26,222 - __main__ - MainThread - DEBUG:Return count words result: 0, line count: 0
+2019-11-21 19:35:26,222 - __main__ - MainThread - DEBUG:2 iteration, word_count=0, line_count=0
+2019-11-21 19:35:26,222 - __main__ - MainThread - TRACE:get_sentence() call
+2019-11-21 19:35:27,651 - __main__ - MainThread - DEBUG:user entered sentence: q
+2019-11-21 19:35:27,652 - __main__ - MainThread - INFO:Write line ended @ 1574393727652
+2019-11-21 19:35:27,652 - __main__ - MainThread - INFO:Find word from user end @ 1574393727652
+2019-11-21 19:35:27,652 - __main__ - MainThread - DEBUG:Return count result: 0, line count: 0
+2019-11-21 19:35:27,652 - __main__ - MainThread - TRACE:In try-finally
+2019-11-21 19:35:29,132 - __main__ - MainThread - DEBUG:Escape input: n
+2019-11-21 19:35:29,132 - __main__ - MainThread - TRACE:main() exit
+2019-11-21 19:35:29,132 - __main__ - MainThread - INFO:Program ended @ 1574393729133
